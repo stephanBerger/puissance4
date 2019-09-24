@@ -16,18 +16,18 @@ public class Puissance4 {
 		
 		
         do {
-//            System.out.print(" Joueur ");
-//            if (Joueur.couleurJoueur == JAUNE ){
-//                System.out.print("X"); 
-//            } else {
-//                System.out.print("O");
-//            }
-//            System.out.print(" entrez un numero de colonne ");
-//            int colonne = saisiColonne.nextInt();
-//            --colonne;
-//            valide = joue(grille, colonne, couleurJoueur);
-//            if ( !valide ) { System.out.println(" >Ce coup n'est pas valide !!<");
-//            }
+            System.out.print(" Joueur ");
+            if (Joueur.couleurJoueur == JAUNE ){
+                System.out.print("X"); 
+            } else {
+                System.out.print("O");
+            }
+            System.out.print(" entrez un numero de colonne ");
+            int colonne = saisiColonne.nextInt();
+            --colonne;
+            valide = joue(grille, colonne, couleurJoueur);
+            if ( !valide ) { System.out.println("Ce coup n'est pas valide");
+            }
         } while (!valide);
     }
 		
