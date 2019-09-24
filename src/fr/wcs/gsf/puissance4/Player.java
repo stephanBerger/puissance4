@@ -1,7 +1,10 @@
 package fr.wcs.gsf.puissance4;
 
-public class Joueur {
 
-	
+public class Player {
+
+
+    
+    
 	
 }
