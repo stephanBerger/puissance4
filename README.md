@@ -1,2 +1,2 @@
 # puissance4
-Réalisation du jeu puissance en java
+Réalisation du jeu puissance4 en java
