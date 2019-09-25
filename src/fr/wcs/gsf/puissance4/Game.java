@@ -20,6 +20,8 @@ public class Game {
 			return false;
 		}
 	}
+	
+		
 
 	static int permutte(int couleurJoueur) {
 		if (couleurJoueur == PuissanceIhm.YELLOW) {
@@ -29,22 +31,25 @@ public class Game {
 		}
 	}
 
-	static void askAndPlay(int[][] grille, int couleurJoueur) {
+	
+	static void askAndPlay(int[][] grille, int couleurJoueur, Player joueur1, Player joueur2) {
 
 		boolean valide;
 		do {
-			System.out.print(" Joueur ");
+			
 			if (couleurJoueur == PuissanceIhm.YELLOW) {
-				System.out.print("X\n");
+				Player.yourTurn("A vous de jouer " + joueur1.getName());
+				System.out.print("Votre jeton : " + joueur1.getJeton() + "\n");
 			} else {
-				System.out.print("O\n");
+				Player.yourTurn("A vous de jouer " + joueur2.getName());
+				System.out.print("Votre jeton : " + joueur2.getJeton() + "\n");
 			}
 			System.out.print("Entrez votre choix pour la colonne:");
 			int column = question.nextInt();
 			--column;
 			valide = play(grille, column, couleurJoueur);
 			if (!valide) {
-				System.out.println(" >Ce coup n'est pas valide !!<");
+				System.out.println("Ce coup n'est pas valide !!");
 			}
 		} while (!valide);
 	}
