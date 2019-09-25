@@ -1,5 +1,5 @@
 package fr.wcs.gsf.puissance4;
-import java.util.Scanner;
+
 
 public class Player {
 	
