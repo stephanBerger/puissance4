@@ -8,13 +8,13 @@ public class Puissance4 {
 		int[][] grid = new int[6][7];
 		
 
-
 		int colorPlayer = PuissanceIhm.YELLOW;
 
 		
 		PuissanceIhm.init(grid);
 		PuissanceIhm.display(grid);
 
+		
 		do {
 			Game.askAndPlay(grid, colorPlayer);
 			PuissanceIhm.display(grid);

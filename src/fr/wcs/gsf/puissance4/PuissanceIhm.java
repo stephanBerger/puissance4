@@ -20,7 +20,7 @@ public class PuissanceIhm {
 	static void display(int[][] grid) {
 		System.out.println();
 		for (int[] ligne : grid) {
-			System.out.print('|');
+			System.out.print("\u2503");
 			for (int cell : ligne) {
 				if (cell == VOID) {
 					System.out.print(' ');
@@ -29,15 +29,16 @@ public class PuissanceIhm {
 				} else {
 					System.out.print('X');
 				}
-				System.out.print('|');
+				System.out.print("\u2503");
 			}
 			System.out.println();
 		}
 
-		for (int i = 1; i <= grid[0].length; ++i) {
-			System.out.print("=" + i);
+		for (int i = 1; i <= grid[0].length; ++i)
+		{	
+			System.out.print("\u2503" + i);
 		}
-		System.out.println("=\n");
+		System.out.println("\u2503\n");
 	}
 	
 	
