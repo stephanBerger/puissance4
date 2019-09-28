@@ -18,6 +18,7 @@ public class PuissanceIhm {
 	}
 
 	static void display(int[][] grid) {
+		System.out.println();
 		System.out.println("\u2503 \u2503 PUISSANCE 4 \u2503 \u2503");
 		System.out.println("");
 		for (int[] ligne : grid) {
