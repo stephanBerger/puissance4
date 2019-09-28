@@ -11,22 +11,24 @@ public class Puissance4 {
 //	}
 	
 	public static void main(String[] args) {
-		Player joueur1 = new Player("joueur1", "X");
-		Player joueur2 = new Player("joueur2", "O");
+		Player joueur1 = new Player("joueur1", "🔴");
+		Player joueur2 = new Player("joueur2", "🔵");
 		
 		
-		System.out.println("Quel est le nom du premier joueur ?");
+		System.out.println("Bonjour et bienvenue dans le jeu puissance 4 ! \n\nQuel est le nom du premier joueur ?🔴");
 		String read = question.nextLine();
 		joueur1.setName(read);
 		
 		
-		System.out.println("Quel est le nom du deuxième joueur ?");
+		System.out.println("Quel est le nom du deuxième joueur ?🔵");
 		read = question.nextLine();
 		joueur2.setName(read);
+		System.out.println("");
 
 		boolean win;
 		int[][] grid = new int[6][7];
 		
+
 
 		int colorPlayer = PuissanceIhm.YELLOW;
 
@@ -34,7 +36,6 @@ public class Puissance4 {
 		PuissanceIhm.init(grid);
 		PuissanceIhm.display(grid);
 
-		
 		do {
 			
 //			Player joueur = joueur1;

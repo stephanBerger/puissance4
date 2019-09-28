@@ -18,26 +18,29 @@ public class PuissanceIhm {
 	}
 
 	static void display(int[][] grid) {
-		System.out.println();
+		System.out.println("\u2503 \u2503 PUISSANCE 4 \u2503 \u2503");
+		System.out.println("");
 		for (int[] ligne : grid) {
-			System.out.print("\u2503");
+			System.out.print("");
 			for (int cell : ligne) {
 				if (cell == VOID) {
-					System.out.print(' ');
+					System.out.print("🔲");
 				} else if (cell == RED) {
-					System.out.print('O');
+					System.out.print("🔴");
 				} else {
-					System.out.print('X');
+					System.out.print("🔵");
 				}
 				System.out.print("\u2503");
 			}
 			System.out.println();
 		}
-
-		for (int i = 1; i <= grid[0].length; ++i)
-		{	
-			System.out.print("\u2503" + i);
-		}
+		System.out.println();
+//		for (int i = 1; i <= grid[0].length; ++i)
+//		{	
+//			System.out.print("\u2503" + i);
+//		}
+		System.out.print("1 \u2503 2\u2503 3\u2503 4\u2503 5\u2503 6\u2503 7");
+		
 		System.out.println("\u2503\n");
 	}
 	

@@ -37,10 +37,12 @@ public class Game {
 		boolean valide;
 		do {
 			
-			if (couleurJoueur == PuissanceIhm.YELLOW) {
+			if (couleurJoueur == PuissanceIhm.RED) {
+				System.out.println();
 				Player.yourTurn("A vous de jouer " + joueur1.getName());
 				System.out.print("Votre jeton : " + joueur1.getJeton() + "\n");
 			} else {
+				System.out.println();
 				Player.yourTurn("A vous de jouer " + joueur2.getName());
 				System.out.print("Votre jeton : " + joueur2.getJeton() + "\n");
 			}
