@@ -3,7 +3,7 @@
   associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="fr.wcs.gsf.puissance4.Game" project="puissance4" 
     file="/puissance4/src/fr/wcs/gsf/puissance4/Game.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="230" y="425"/>    
+    <position height="-1" width="-1" x="571" y="558"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -12,7 +12,7 @@
   </class>  
   <class id="2" language="java" name="fr.wcs.gsf.puissance4.Puissance4" project="puissance4" 
     file="/puissance4/src/fr/wcs/gsf/puissance4/Puissance4.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="352" y="130"/>    
+    <position height="-1" width="-1" x="561" y="116"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -21,7 +21,7 @@
   </class>  
   <class id="3" language="java" name="fr.wcs.gsf.puissance4.PuissanceIhm" project="puissance4" 
     file="/puissance4/src/fr/wcs/gsf/puissance4/PuissanceIhm.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="557" y="318"/>    
+    <position height="-1" width="-1" x="183" y="349"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -30,7 +30,7 @@
   </class>  
   <class id="4" language="java" name="fr.wcs.gsf.puissance4.Player" project="puissance4" 
     file="/puissance4/src/fr/wcs/gsf/puissance4/Player.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="636" y="138"/>    
+    <position height="-1" width="-1" x="972" y="336"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -39,16 +39,15 @@
   </class>  
   <dependency id="5">    
     <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="1"/>  
+    <end type="TARGET" refId="4"/>  
   </dependency>  
   <dependency id="6">    
-    <bendpoint x="433" y="257"/>    
     <end type="SOURCE" refId="2"/>    
     <end type="TARGET" refId="3"/>  
   </dependency>  
   <dependency id="7">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="3"/>  
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
   </dependency>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
